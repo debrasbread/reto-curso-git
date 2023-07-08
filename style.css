@@ -1,0 +1,45 @@
+:root {
+    --color-primario: #c8a8dd;
+    --color-centro: #F364E9;
+    --color-border: #6bf3f3;
+    --color-background: #bffefe;
+}
+
+*{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Trebuchet MS';
+}
+
+.container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.content{
+    width: 50%;
+    height: auto;
+    background-color: red; 
+    padding: 50px;
+    background-color: var(--color-background);
+    border: solid 2px var(--color-border);
+    border-radius: 10px;
+}
+.content h1{
+    margin: 10px;
+    text-align: center;
+    color: var(--color-centro);
+}
+
+.content p{
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.content p:last-child{
+    font-size: 15px;
+    text-align: right;
+    margin: 10px;
+}

@@ -4,10 +4,12 @@
 }
 
 body {
+  min-height: 100vh;
   background-color: #f8f2ed;
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  position: relative;
 }
 
 nav {
@@ -16,6 +18,7 @@ nav {
   position: absolute;
   top: 30px;
   right: 0;
+  z-index: 2;
 }
 
 ul {
@@ -41,13 +44,18 @@ li:last-child {
 }
 
 .footer {
-    display: flex;
-    justify-content: center;
-    padding: 18px;
-    bottom: 0;
-    background-color: #c5a4d3;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color:#F2F0F2;
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+  bottom: 0;
+  background-color: #c5a4d3;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color:#F2F0F2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }

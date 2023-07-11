@@ -1,0 +1,38 @@
+/* DEBRA - MENÚ */
+
+body {
+  background-color: #f8f2ed;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+nav {
+  text-align: right;
+  color: #ab8ebf;
+  position: absolute;
+  top: 30px;
+  right: 0;
+}
+
+ul {
+  display: flex;
+  column-gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: #c8a8dd;
+  font-weight: 500;
+  font-size: 1rem;
+  padding-right: 39px;
+  border-right: 1px solid #c8a8dd;
+  height: 30px;
+  line-height: 30px;
+}
+
+li:last-child {
+  border-right: none;
+}

@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+header {
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+header img {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
 body {
   background-color: #f8f2ed;
   margin: 0;
@@ -38,6 +48,11 @@ li {
 
 li:last-child {
   border-right: none;
+}
+
+.logo-header {
+  height: 15%;
+  width: 15%;
 }
 
 .footer {
